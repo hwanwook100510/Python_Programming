@@ -16,9 +16,11 @@ You need Python
 
 print(multiline)
 
+
 def func():
     """이 함수는 테스트용입니다."""
     pass
+
 
 print(func.__doc__)
 
@@ -38,7 +40,7 @@ print(int("10") + int("2"))
 name = "pororo"
 age = 23
 
-print(f"이름 : {name}, 나이 : {age}"살)
+print(f"이름 : {name}, 나이 : {age}살")
 print(f"내년 나이: {age + 1}살")
 print(f"{name.upper()}님 안녕하세요")
 
