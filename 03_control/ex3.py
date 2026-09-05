@@ -33,7 +33,6 @@ print(f"tot = {tot}")
 
 print(sum(range(1, 11)))
 
-
 s = "hi12!@한글韓國💻🌊"
 
 for c in s:
@@ -41,3 +40,18 @@ for c in s:
 print()
 
 print(len(s))
+
+# 구구단 출력
+# 2 * 1 = 2 2 * 2 = 4 .. 2 * 9 = 18
+# ..
+# 9 * 1 = 9 9 * 2 = 18 .. 9 * 9 = 81
+for i in range(2, 9):
+    for j in range(1, 9):
+        # if i * j < 10:
+        #     print(f"{i} * {j} = {i * j}", end="  ")
+        # else:
+        #     print(f"{i} * {j} = {i * j}", end=" ")
+        print(f"{i} * {j} = {i * j:<5d}", end="")
+    print()
+else:
+    print("End")
